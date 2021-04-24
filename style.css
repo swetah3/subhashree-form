@@ -1,0 +1,62 @@
+/* ---------header--------- */
+
+.navbar-top {
+    justify-content: space-around!important;
+}
+
+
+/* ---------table-------- */
+
+.normal-table td {
+    border: 1px solid black;
+    padding: 6px;
+    border-color: grey;
+    font-size: 0.72rem;
+}
+
+.normal-table td input {
+    border: 0;
+}
+
+.normal-table td input:focus {
+    border: 0;
+    outline: 0;
+}
+
+.option-section input[type="checkbox"] {
+    border: 0;
+}
+
+
+/* ---------form--------- */
+
+
+/* ---------footer--------- */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    float: center;
+    padding: 1rem;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.text-footer {
+    padding-top: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* ---------responsive--------- */
