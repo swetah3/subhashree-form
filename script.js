@@ -9,17 +9,6 @@
 //     }
 //   }
 
-document.getElementById('yesCheck').addEventListener("click",hide);
-  function hide (){
-   if(document.getElementById('show-content').style.display==="none"){ 
-       document.getElementById('show-content').style.display = 'block';
-  }
-  else{
-    document.getElementById('show-content').style.display = 'none';
-  }
-}
-
-
   
 
 //   function YesnoCheck() {
@@ -31,7 +20,44 @@ document.getElementById('yesCheck').addEventListener("click",hide);
 //   }
 
 // table maipulation
-
+$(document).ready(function(){
+    // Hide displayed paragraphs
+    // $(".yesClick").click(function(){
+    //     $("p").hide();
+    // });
+    
+    // Show hidden paragraphs
+    $(".yesCheck").click(function(){
+        $(".show-content").toggle();
+    });
+    $(".yesCheck2").click(function(){
+        $(".show-content2").toggle();
+    });
+    $(".yesCheck3").click(function(){
+        $(".show-content3").toggle();
+    });
+    $(".yesCheck4").click(function(){
+        $(".show-content4").toggle();
+    });
+    $(".yesCheck5").click(function(){
+        $(".show-content5").toggle();
+    });
+    $(".yesCheck6").click(function(){
+        $(".show-content6").toggle();
+    });
+    $(".yesCheck7").click(function(){
+        $(".show-content7").toggle();
+    });
+    $(".yesCheck8").click(function(){
+        $(".show-content8").toggle();
+    });
+    $(".yesCheck9").click(function(){
+        $(".show-content9").toggle();
+    });
+    $(".yesCheck10").click(function(){
+        $(".show-content10").toggle();
+    });
+});
 $(document).ready(function() {
 
     var html = '<tr><td><input class="form-control" type="text" name="fname[]" required=""></td> <td><input class="form-control" type="text" name="email[]" required=""></td> <td><input class="form-control" type="text" name="phone[]" required=""></td><td><input class="form-control" type="text" name="addr[]" required=""></td> <td><a class= "btn btn-danger" type= "button" name= "remove" id= "remove">-</a></td></tr>';
